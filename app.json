@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "jogo-da-moeda-mobile",
-    "slug": "jogo-da-moeda-mobile",
+    "name": "jogo-da-moeda",
+    "slug": "jogo-da-moeda",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,9 +10,6 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
@@ -23,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aleflaniel.jogodamoeda"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ba1b11e6-ec1f-40b7-8cb1-23ee1313b698"
+      }
     }
   }
 }
