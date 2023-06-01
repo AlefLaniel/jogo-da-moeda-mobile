@@ -14,14 +14,14 @@ export default function App() {
   );
 
   async function playSound() {
-    console.log("Loading Sound");
+    console.log("Loading Som principal");
     const { sound } = await Audio.Sound.createAsync(
       require("./assets/somdamoeda.mp3")
     );
     setSound(sound);
 
     setImage(`${require("./assets/images/girando.gif")}`);
-    console.log("Playing Sound");
+    console.log("Playing Som principal");
     setTimeout(resultadoFinal, 2000);
     await sound.playAsync();
   }
