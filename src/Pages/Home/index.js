@@ -36,10 +36,10 @@ const Home = () => {
     function resultadoFinal() {
       let random = Math.floor(Math.random() * 2);
       if (random === 0) {
-        setText("Deu Cara \n *Gire novamente se quiser ☺*");
+        setText("Deu Cara \n *Gire novamente se quiser* ☺");
         setImage(`${require("../../../assets/images/cara.png")}`);
       } else {
-        setText("Deu Coroa \n *Gire novamente se quiser ☺*");
+        setText("Deu Coroa \n *Gire novamente se quiser* ☺");
         setImage(`${require("../../../assets/images/coroa.png")}`);
       }
     }
